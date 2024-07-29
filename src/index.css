@@ -1,0 +1,33 @@
+  
+
+
+
+
+:root{
+  --blue-theme-background-color : #1d0252;
+  --blue-theme-main-color : #08ca35;
+  --blue-theme-sub-text-color : #ffffff;
+  --blue-theme-nav-background-color : #0f0f7a;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62,5%;
+  height: 100%;
+
+}
+
+body{
+  background: var(--blue-theme-background-color);
+  height: 100%;
+}
+
+#root{
+  height: 100%;
+}
